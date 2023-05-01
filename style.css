@@ -88,3 +88,41 @@ body {
     background-color: #d07db3 !important;
     box-shadow: 0 0 15px rgba(208, 125, 184, 0.3) !important;
 }
+
+.key_backspace, .key_caps, .key_enter {
+    width: 90px;
+}
+
+.key_shift-l {
+    width: 115px;
+}
+
+.key_shift-r, .key_del, .key_arr {
+    width: 45px;
+}
+
+.key_tab {
+    width: 55px;
+}
+
+.key_ctrl {
+    width: 50px;
+}
+
+.key_win, .key_alt, .key_arr-up, .key_arr-down {
+    width: 40px;
+}
+
+.key_space {
+    width: 232px;
+}
+
+.note {
+    color: #7e6777;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.note_mb {
+    margin-bottom: 20px;
+}
