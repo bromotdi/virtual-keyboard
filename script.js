@@ -64,6 +64,17 @@ class Keyboard {
         title.classList.add('title');
         title.textContent = 'Virtual Keyboard';
 
+        const note1 = document.createElement('p');
+        note1.classList.add('note');
+        note1.innerHTML = 'To switch the language layout press <b>Alt + Ctrl</b>';
+        const note2 = document.createElement('p');
+
+        note2.classList.add('note', 'note_mb');
+        note2.innerHTML = 'The keyboard was created in the <b>Windows OS</b>';
+
+        document.body.appendChild(note1);
+        document.body.appendChild(note2);
+
         const textarea = document.createElement('textarea');
         textarea.rows = 3;
         textarea.classList.add('textarea');
@@ -91,17 +102,6 @@ class Keyboard {
                 keyboardLines[k].appendChild(button);
             }
         }
-
-        const note1 = document.createElement('p');
-        note1.classList.add('note');
-        note1.innerHTML = 'The keyboard was created in the <b>Windows OS</b>';
-        const note2 = document.createElement('p');
-
-        note2.classList.add('note', 'note_mb');
-        note2.innerHTML = 'To switch the language layout press <b>Alt + Ctrl</b>';
-
-        document.body.appendChild(note1);
-        document.body.appendChild(note2);
 
         this.keyboardLayout();
         this.setButtonsClass();
