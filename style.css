@@ -1,0 +1,128 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #454545;
+    background-color: #fff0f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    width: 700px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-bottom: 5px solid #dfb4ce;
+    border-right: 5px solid #d0aac1;
+    border-left: 5px solid #a78899;
+    border-top: 5px solid #7c6472;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+    background-color: #675360;
+    border-top: 5px solid #dfb4ce;
+    border-left: 5px solid #a78899;
+    border-right: 5px solid #564550;
+    border-bottom: 7px solid #292126;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.keyboard_line {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.keyboard_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #cb9fbc;
+    border-left: 2px solid #bf96b5;
+    border-right: 2px solid #6d5563;
+    border-bottom: 2px solid #3d2f38;
+    border-radius: 2px;
+    background-color: #907085;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: all 0.05s;
+}
+
+.keyboard_button:hover {
+    background-color: #d07db8;
+    box-shadow: 0 0 15px rgba(208, 125, 189, 0.3);
+}
+
+.hover,
+.active {
+    background-color: #d07db3 !important;
+    box-shadow: 0 0 15px rgba(208, 125, 184, 0.3) !important;
+}
+
+.key_backspace, .key_caps, .key_enter {
+    width: 90px;
+}
+
+.key_shift-l {
+    width: 115px;
+}
+
+.key_shift-r, .key_del, .key_arr {
+    width: 45px;
+}
+
+.key_tab {
+    width: 55px;
+}
+
+.key_ctrl {
+    width: 50px;
+}
+
+.key_win, .key_alt, .key_arr-up, .key_arr-down {
+    width: 40px;
+}
+
+.key_space {
+    width: 232px;
+}
+
+.note {
+    color: #7e6777;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.note_mb {
+    margin-bottom: 20px;
+}

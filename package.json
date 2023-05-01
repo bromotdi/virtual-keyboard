@@ -1,0 +1,8 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --ext .js",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
